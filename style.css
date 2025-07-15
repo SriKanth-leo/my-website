@@ -1,0 +1,294 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.header {
+    background-color: rgba(95, 158, 160, 0.4);
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h1 {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.nav-bar,
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.nav-bar,
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+
+}
+
+.nav-bar,
+a:hover {
+    color: #4CAF50;
+    transform: scale(1.2);
+    transform: translatey(3px)
+}
+
+.nav-bar a:active {
+    color: #0909f4;
+}
+
+.btn button {
+    padding: 15px;
+    color: rgb(2, 7, 7);
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.47);
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 1s;
+    transform: scale(1.2);
+    transform: translateX(3px)
+}
+
+#name {
+    display: inline;
+    color: white;
+    background-color: rgb(224, 176, 2);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#body {
+    display: inline;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+#name {
+    display: inline;
+    position: relative;
+    bottom: 30px;
+}
+
+span {
+    color: red;
+}
+
+#hire-btn {
+    color: white;
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    top: 20px;
+}
+
+#img img {
+    border: solid rgba(0, 0, 0, 0.192);
+    border-radius: 50%;
+    position: absolute;
+    left: 700px;
+    top: 1px;
+
+}
+
+.app {
+    display: inline;
+    padding: 10px;
+    position: relative;
+    top: 60px;
+}
+
+#about {
+    display: inline-block;
+    position: absolute;
+    left: 730px;
+    top: 120%;
+    background-color: rgba(254, 254, 254, 0.779);
+    width: 400px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+.about {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 50%;
+    top: 100%;
+}
+
+#me {
+    padding: 10px;
+
+}
+
+#introduction {
+    position: relative;
+    left: 120px;
+    padding: 20px;
+}
+
+.resume {
+    color: white;
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    left: 150px;
+}
+
+.img {
+    position: absolute;
+    right: 180%;
+    bottom: 10%;
+    border-radius: 50px;
+}
+
+#pro {
+    position: absolute;
+    left: 50%;
+    top: 200%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.iot {
+    display: inline;
+    position: absolute;
+    top: 220%;
+    left: 150px;
+    background-color: rgba(254, 254, 254, 0.779);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.iot h3 {
+    padding: 10px;
+    position: relative;
+    left: 35px;
+}
+
+.can {
+    display: inline;
+    position: absolute;
+    top: 220%;
+    left: 500px;
+    background-color: rgba(254, 254, 254, 0.779);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.can h3 {
+    padding: 10px;
+    position: relative;
+    left: 35px;
+}
+
+.soft {
+    display: inline;
+    position: absolute;
+    top: 220%;
+    left: 850px;
+    background-color: rgba(254, 254, 254, 0.779);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.soft h3 {
+    position: relative;
+    left: 35px;
+    padding: 10px;
+}
+
+.soft:hover {
+    transition: .2s;
+    transform: translate(0, -10px);
+}
+
+.can:hover {
+    transition: .2s;
+    transform: translate(0, -10px);
+}
+
+.iot:hover {
+    transition: .2s;
+    transform: translate(0, -10px);
+}
+#contact{
+    position: absolute;
+    left: 48%;
+    top: 280%;
+    
+}
+.contact{
+    position: absolute;
+    left: 50%;
+    top: 270%;
+}
+input{
+    background: #ffffff;
+    padding: 8px;
+    border: none;
+    width: 130%;
+    height: 40px;
+    border-radius: 10px;
+}
+.send-Message button{
+     color: white;
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    left: 70px;
+}
+.contact{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ma{
+    position: absolute;
+    top: 330%;
+    left: 38%;
+
+}
